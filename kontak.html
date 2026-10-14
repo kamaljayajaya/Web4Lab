@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+
+        <section id="hero">
+            <h1>Hubungi Kami</h1>
+            <p>
+                Silakan isi formulir berikut jika ingin
+                menghubungi kami.
+            </p>
+        </section>
+
+        <section id="main">
+            <article class="entry">
+                <h2>Formulir Kontak</h2>
+
+                <form action="#" method="post">
+
+                    <p>
+                        <label for="nama">Nama:</label><br>
+                        <input type="text" id="nama"
+                               name="nama" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email"
+                               name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="pesan">Pesan:</label><br>
+                        <textarea id="pesan" name="pesan"
+                                  rows="6" required></textarea>
+                    </p>
+
+                    <button type="submit">Kirim Pesan</button>
+
+                </form>
+            </article>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 - Website Praktikum</p>
+        </footer>
+
+    </div>
+</body>
+</html>
